@@ -3,8 +3,12 @@ import { slivakers } from "../../data";
 
 const Home = () => {
   return (
-    <div>
-      {/* {slivakers.map((e) => {
+    <div className="p-5 space-y-5">
+      <div className="flex justify-between items-center">
+        <h3 className="text-xl font-bold">there is {slivakers.length} - slivait</h3>
+        <h3 className="text-xl font-bold">All is for free</h3>
+      </div>
+      {slivakers.map((e) => {
         return (
           <div
             key={e.id}
@@ -23,8 +27,7 @@ const Home = () => {
             </div>
           </div>
         );
-      })} */}
-      Home
+      })}
     </div>
   );
 };
