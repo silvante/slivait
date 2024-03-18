@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #12151a;
+  color: white;
+}
+
+#root {
+  height: 100vh;
+  width: 100%;
+}
+
+.myH {
+  flex-grow: 1;
+}
