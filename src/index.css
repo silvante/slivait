@@ -13,7 +13,7 @@ body {
   color: white;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
   display: none;
 }
 
@@ -26,8 +26,41 @@ body::-webkit-scrollbar{
   flex-grow: 1;
 }
 
-
-.resGit{
+.resGit {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(5, 1fr);
+}
+
+@media (max-width: 1550px) {
+  .resGit {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1200px) {
+  .resGit {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 950px) {
+  .resGit {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  aside{
+    display: none;
+  }
+}
+
+@media (max-width: 750px) {
+  .resGit {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 530px) {
+  .resGit {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

@@ -10,7 +10,7 @@ const Home = () => {
         </h3>
         <h3 className="text-xl font-bold">All is for free</h3>
       </div>
-      <div className="w-full gap-3 resGit">
+      <div className="w-full gap-5 resGit">
         {slivakers.map((e) => {
           return (
             <div
@@ -18,7 +18,7 @@ const Home = () => {
               className="bg-white/5 rounded-md overflow-hidden border-white/15 border"
             >
               <div className="h-[223px] w-full flex">
-                <img src={e.img} alt={e.name} className="h-full" />
+                <img src={e.img} alt={e.name} className="h-full w-full" />
               </div>
               <div className="p-3 space-y-3">
                 <div>
