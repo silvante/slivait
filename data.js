@@ -6,6 +6,11 @@ import node from "./public/node.jpg";
 import haker from "./public/haker.jpg";
 import sql from "./public/sql.jpg";
 import cSharp from "./public/cSharp.jpg";
+import linux from "./public/linux.jpg";
+import git from "./public/git.jpg";
+import react from "./public/react.jpg";
+import pSQL from "./public/pSQL.jpg";
+
 
 export const slivakers = [
   {
@@ -134,28 +139,201 @@ export const slivakers = [
     ],
   },
   {
-    id: 5,
-    name: "Node.js lessons",
-    img: node,
-    size: 3.5,
-    cost: "6,690",
+    id: 6,
+    name: "SQL lessons",
+    img: sql,
+    size: 1.5,
+    cost: "6,190",
     desc: `
-        ~ A complete guide to creating sites and applications using server-side JavaScript, including databases and API creation
-        ~ Write server-side JavaScript
-        ~ The entire NodeJS infrastructure
-        ~ Create REST API
-        ~ Create applications using Express
-        ~ Store data in MySQL and MongoDB
-        ~ GraphQL Basics
-        ~ Create static websites using NodeJS
+        ~ A package of three courses on SQL and databases.
+        ~SQL Basics
+        ~ Practical Online course on the basics of SQL with a series of short video lessons and a large number of tasks.
+        ~Advanced SQL
+        ~ Window functions and advanced SQL analytics.
+        ~ SQL using the example of MySQL - one of the most popular databases.
+        ~ Database Design
+        ~ Options for logical and conceptual design, normalization of the base to the 4NF form, as well as denormalization of tables.
     `,
     type: "mern",
-    tgLink: "https://t.me/sIivaker/1794",
+    tgLink: "https://t.me/sIivaker/1709",
     file: [
       {
         id: 1,
-        size: 3.5,
-        link: "https://filetolink-1-d6d945002598.herokuapp.com/437151/Express+JS.+%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D0%BA%D1%83%D1%80%D1%81.zip?hash=AgADLE",
+        size: 1.5,
+        link: "https://filetolink-1-d6d945002598.herokuapp.com/437189/%D0%9F%D0%B0%D0%BA%D0%B5%D1%82+SQL+%D0%BA%D1%83%D1%80%D1%81%D0%BE%D0%B2.zip?hash=AgAD1T",
+      },
+    ],
+  },
+  {
+    id: 7,
+    name: "hacking (white)",
+    img: haker,
+    size: 1,
+    cost: "10,000",
+    desc: `
+        ~ Certified Ethical Hacker (CEH) Certification Exam
+        ~Learn how to use Nmap
+        ~Learn how to use Nessus
+        ~ Learn about network scan types
+        ~Learn about script scanning
+        ~ Becoming an Ethical Hacker
+        ~ Learn ethical hacking
+        ~ Learn ethical intelligence
+        ~ Learn about nmap
+        ~ Learn about nmap nessus
+        ~ Learn about nmap metaspolit
+    `,
+    type: "hacking",
+    tgLink: "https://t.me/sIivaker/1849",
+    file: [
+      {
+        id: 1,
+        size: 1,
+        link: "https://filetolink-1-d6d945002598.herokuapp.com/437082/ethical-hacking-network-security-video.zip?hash=AgADZU",
+      },
+    ],
+  },
+  {
+    id: 8,
+    name: "C# lessons",
+    img: cSharp,
+    size: 0.88,
+    cost: "4,500",
+    desc: `
+    ~ Built-in generic collections of the .NET platform, generic classes, interfaces and delegates, custom collections.
+    ~ Knowledge of the C# programming language
+    ~ Understanding the purpose of universal templates
+    ~ Effective use of universal collections, classes, interfaces, methods
+    ~ Creating your own universal collections
+    ~ Applying reflection, working with covariance and contravariance
+    `,
+    type: "backend",
+    tgLink: "https://t.me/sIivaker/1727",
+    file: [
+      {
+        id: 1,
+        size: 1,
+        link: "https://filetolink-1-d6d945002598.herokuapp.com/437181/C%23+%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B+%282020%29.zip?hash=AgADzE",
+      },
+    ],
+  },
+  {
+    id: 8,
+    name: "C# lessons",
+    img: cSharp,
+    size: 0.88,
+    cost: "4,500",
+    desc: `
+    ~ Built-in generic collections of the .NET platform, generic classes, interfaces and delegates, custom collections.
+    ~ Knowledge of the C# programming language
+    ~ Understanding the purpose of universal templates
+    ~ Effective use of universal collections, classes, interfaces, methods
+    ~ Creating your own universal collections
+    ~ Applying reflection, working with covariance and contravariance
+    `,
+    type: "backend",
+    tgLink: "https://t.me/sIivaker/1727",
+    file: [
+      {
+        id: 1,
+        size: 1,
+        link: "https://filetolink-1-d6d945002598.herokuapp.com/437181/C%23+%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B+%282020%29.zip?hash=AgADzE",
+      },
+    ],
+  },
+  {
+    id: 8,
+    name: "C# lessons",
+    img: cSharp,
+    size: 0.88,
+    cost: "4,500",
+    desc: `
+    ~ Built-in generic collections of the .NET platform, generic classes, interfaces and delegates, custom collections.
+    ~ Knowledge of the C# programming language
+    ~ Understanding the purpose of universal templates
+    ~ Effective use of universal collections, classes, interfaces, methods
+    ~ Creating your own universal collections
+    ~ Applying reflection, working with covariance and contravariance
+    `,
+    type: "backend",
+    tgLink: "https://t.me/sIivaker/1727",
+    file: [
+      {
+        id: 1,
+        size: 1,
+        link: "https://filetolink-1-d6d945002598.herokuapp.com/437181/C%23+%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B+%282020%29.zip?hash=AgADzE",
+      },
+    ],
+  },
+  {
+    id: 8,
+    name: "C# lessons",
+    img: cSharp,
+    size: 0.88,
+    cost: "4,500",
+    desc: `
+    ~ Built-in generic collections of the .NET platform, generic classes, interfaces and delegates, custom collections.
+    ~ Knowledge of the C# programming language
+    ~ Understanding the purpose of universal templates
+    ~ Effective use of universal collections, classes, interfaces, methods
+    ~ Creating your own universal collections
+    ~ Applying reflection, working with covariance and contravariance
+    `,
+    type: "backend",
+    tgLink: "https://t.me/sIivaker/1727",
+    file: [
+      {
+        id: 1,
+        size: 1,
+        link: "https://filetolink-1-d6d945002598.herokuapp.com/437181/C%23+%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B+%282020%29.zip?hash=AgADzE",
+      },
+    ],
+  },
+  {
+    id: 8,
+    name: "C# lessons",
+    img: cSharp,
+    size: 0.88,
+    cost: "4,500",
+    desc: `
+    ~ Built-in generic collections of the .NET platform, generic classes, interfaces and delegates, custom collections.
+    ~ Knowledge of the C# programming language
+    ~ Understanding the purpose of universal templates
+    ~ Effective use of universal collections, classes, interfaces, methods
+    ~ Creating your own universal collections
+    ~ Applying reflection, working with covariance and contravariance
+    `,
+    type: "backend",
+    tgLink: "https://t.me/sIivaker/1727",
+    file: [
+      {
+        id: 1,
+        size: 1,
+        link: "https://filetolink-1-d6d945002598.herokuapp.com/437181/C%23+%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B+%282020%29.zip?hash=AgADzE",
+      },
+    ],
+  },
+  {
+    id: 8,
+    name: "C# lessons",
+    img: cSharp,
+    size: 0.88,
+    cost: "4,500",
+    desc: `
+    ~ Built-in generic collections of the .NET platform, generic classes, interfaces and delegates, custom collections.
+    ~ Knowledge of the C# programming language
+    ~ Understanding the purpose of universal templates
+    ~ Effective use of universal collections, classes, interfaces, methods
+    ~ Creating your own universal collections
+    ~ Applying reflection, working with covariance and contravariance
+    `,
+    type: "backend",
+    tgLink: "https://t.me/sIivaker/1727",
+    file: [
+      {
+        id: 1,
+        size: 1,
+        link: "https://filetolink-1-d6d945002598.herokuapp.com/437181/C%23+%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B+%282020%29.zip?hash=AgADzE",
       },
     ],
   },

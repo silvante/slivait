@@ -30,6 +30,9 @@ const Aside = () => {
         <p className="hover:bg-white/10 py-3 w-full px-5 transition-all">
           IOs apps
         </p>
+        <p className="hover:bg-white/10 py-3 w-full px-5 transition-all">
+          Mern dev
+        </p>
       </div>
       <div className="flex items-center gap-3 px-5 py-3 border-white/15 border-t w-full absolute bottom-0 left-0">
         <img src={me} alt="my pfp" width={"50px"} className="rounded-full border"/>
