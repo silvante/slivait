@@ -11,7 +11,6 @@ import git from "./public/git.jpg";
 import react from "./public/react.jpg";
 import pSQL from "./public/pSQL.jpg";
 
-
 export const slivakers = [
   {
     id: 1,
@@ -200,140 +199,113 @@ export const slivakers = [
     size: 0.88,
     cost: "4,500",
     desc: `
-    ~ Built-in generic collections of the .NET platform, generic classes, interfaces and delegates, custom collections.
-    ~ Knowledge of the C# programming language
-    ~ Understanding the purpose of universal templates
-    ~ Effective use of universal collections, classes, interfaces, methods
-    ~ Creating your own universal collections
-    ~ Applying reflection, working with covariance and contravariance
+        ~ Built-in generic collections of the .NET platform, generic classes, interfaces and delegates, custom collections.
+        ~ Knowledge of the C# programming language
+        ~ Understanding the purpose of universal templates
+        ~ Effective use of universal collections, classes, interfaces, methods
+        ~ Creating your own universal collections
+        ~ Applying reflection, working with covariance and contravariance
     `,
     type: "backend",
     tgLink: "https://t.me/sIivaker/1727",
     file: [
       {
         id: 1,
-        size: 1,
+        size: 0.88,
         link: "https://filetolink-1-d6d945002598.herokuapp.com/437181/C%23+%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B+%282020%29.zip?hash=AgADzE",
       },
     ],
   },
   {
-    id: 8,
-    name: "C# lessons",
-    img: cSharp,
-    size: 0.88,
-    cost: "4,500",
+    id: 9,
+    name: "React lessons",
+    img: react,
+    size: 1.7,
+    cost: "10,000",
     desc: `
-    ~ Built-in generic collections of the .NET platform, generic classes, interfaces and delegates, custom collections.
-    ~ Knowledge of the C# programming language
-    ~ Understanding the purpose of universal templates
-    ~ Effective use of universal collections, classes, interfaces, methods
-    ~ Creating your own universal collections
-    ~ Applying reflection, working with covariance and contravariance
+        ~ Creating React applications that combine most tasks
+        ~ Using in practice both React hooks and class components, HOC, common store, global context and many other mechanisms for working with components
+        ~Understand the most commonly used React hooks and create your own
+        ~ Optimization, testing and refactoring of actually written components
     `,
-    type: "backend",
-    tgLink: "https://t.me/sIivaker/1727",
+    type: "frontend",
+    tgLink: "https://t.me/sIivaker/1860?single",
     file: [
       {
         id: 1,
-        size: 1,
-        link: "https://filetolink-1-d6d945002598.herokuapp.com/437181/C%23+%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B+%282020%29.zip?hash=AgADzE",
+        size: 1.7,
+        link: "https://filetolink-1-d6d945002598.herokuapp.com/437215/React_JS_%D1%81_%D0%BD%D1%83%D0%BB%D1%8F_%D0%B8_%D0%B4%D0%BE_%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D1%8F_%D0%BF%D0%BE%D0%BB%D0%BD%D0%BE%D1%86%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE_SPA_%D0%BF%D1%80%D0%B8%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F_part2.zip?hash=AgADIU",
       },
     ],
   },
   {
-    id: 8,
-    name: "C# lessons",
-    img: cSharp,
-    size: 0.88,
-    cost: "4,500",
+    id: 10,
+    name: "Git & gitHub",
+    img: git,
+    size: 0.32,
+    cost: "1,000",
     desc: `
-    ~ Built-in generic collections of the .NET platform, generic classes, interfaces and delegates, custom collections.
-    ~ Knowledge of the C# programming language
-    ~ Understanding the purpose of universal templates
-    ~ Effective use of universal collections, classes, interfaces, methods
-    ~ Creating your own universal collections
-    ~ Applying reflection, working with covariance and contravariance
+        ~Learn and understand all the basic features of Git: commits, branches, merging branches, synchronizing with GitHub.
+        ~ You will learn all the basic functions of Git and GitHub that are used most often in practice
+        ~ We'll start with the very basics and how Git works and from there you'll learn and practice the core features of Git.
+        ~ Understanding the internal workings of Git is the main thing in the successful future use of Git and GitHub
+        ~ You will learn all the basic functions of Git - branches, commits, merging branches, pushing changes to a remote repository
     `,
-    type: "backend",
-    tgLink: "https://t.me/sIivaker/1727",
+    type: "Frameworks",
+    tgLink: "https://t.me/sIivaker/1863",
     file: [
       {
         id: 1,
-        size: 1,
-        link: "https://filetolink-1-d6d945002598.herokuapp.com/437181/C%23+%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B+%282020%29.zip?hash=AgADzE",
+        size: 0.32,
+        link: " https://filetolink-1-d6d945002598.herokuapp.com/440120/%D0%92%D0%B5%D1%81%D1%8C+%D0%BA%D1%83%D1%80%D1%81.zip?hash=AgADGT",
       },
     ],
   },
   {
-    id: 8,
-    name: "C# lessons",
-    img: cSharp,
-    size: 0.88,
-    cost: "4,500",
+    id: 11,
+    name: "Linux lessons",
+    img: linux,
+    size: 1,
+    cost: "15,000",
     desc: `
-    ~ Built-in generic collections of the .NET platform, generic classes, interfaces and delegates, custom collections.
-    ~ Knowledge of the C# programming language
-    ~ Understanding the purpose of universal templates
-    ~ Effective use of universal collections, classes, interfaces, methods
-    ~ Creating your own universal collections
-    ~ Applying reflection, working with covariance and contravariance
+        ~ Install and configure Ubuntu;
+        ~ Understand the architecture of Linux and Unix-like systems;
+        ~ Work in the terminal (also useful for those who use Mac);
+        ~ Work with files, file systems and devices in Linux;
+        ~ Administer Linux and other Unix-like operating systems;
+        ~ Understand and write regular expressions;
+        ~ Solve automation problems, write scripts and assign scheduled tasks;
+        ~ Set up a Linux-based web server and protect it using iptables;
+        ~ Work with git, use Docker containerization.
     `,
-    type: "backend",
-    tgLink: "https://t.me/sIivaker/1727",
+    type: "desctop",
+    tgLink: "https://t.me/sIivaker/1862",
     file: [
       {
         id: 1,
         size: 1,
-        link: "https://filetolink-1-d6d945002598.herokuapp.com/437181/C%23+%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B+%282020%29.zip?hash=AgADzE",
+        link: "https://filetolink-1-d6d945002598.herokuapp.com/440106/GeekBrains_Linux_%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B0%D1%8F_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D1%8F_2020_V_1_%D0%91%D1%83%D1%80%D0%B0%D0%BD%D0%BE%D0%B2.zip?hash=AgAERw",
       },
     ],
   },
   {
-    id: 8,
-    name: "C# lessons",
-    img: cSharp,
-    size: 0.88,
-    cost: "4,500",
+    id: 12,
+    name: "postgreSQL",
+    img: pSQL,
+    size: 1.5,
+    cost: "3,000",
     desc: `
-    ~ Built-in generic collections of the .NET platform, generic classes, interfaces and delegates, custom collections.
-    ~ Knowledge of the C# programming language
-    ~ Understanding the purpose of universal templates
-    ~ Effective use of universal collections, classes, interfaces, methods
-    ~ Creating your own universal collections
-    ~ Applying reflection, working with covariance and contravariance
+        ~ Use of Spilo for companies with inexperienced database administrators
+        ~ Spilo - fault-tolerant PostgreSQL cluster
+        ~ Application of Spilo (Spilo)
     `,
-    type: "backend",
-    tgLink: "https://t.me/sIivaker/1727",
+    type: "frontend",
+    tgLink: "https://t.me/sIivaker/1859",
     file: [
       {
         id: 1,
-        size: 1,
-        link: "https://filetolink-1-d6d945002598.herokuapp.com/437181/C%23+%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B+%282020%29.zip?hash=AgADzE",
-      },
-    ],
-  },
-  {
-    id: 8,
-    name: "C# lessons",
-    img: cSharp,
-    size: 0.88,
-    cost: "4,500",
-    desc: `
-    ~ Built-in generic collections of the .NET platform, generic classes, interfaces and delegates, custom collections.
-    ~ Knowledge of the C# programming language
-    ~ Understanding the purpose of universal templates
-    ~ Effective use of universal collections, classes, interfaces, methods
-    ~ Creating your own universal collections
-    ~ Applying reflection, working with covariance and contravariance
-    `,
-    type: "backend",
-    tgLink: "https://t.me/sIivaker/1727",
-    file: [
-      {
-        id: 1,
-        size: 1,
-        link: "https://filetolink-1-d6d945002598.herokuapp.com/437181/C%23+%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5+%D1%88%D0%B0%D0%B1%D0%BB%D0%BE%D0%BD%D1%8B+%282020%29.zip?hash=AgADzE",
+        size: 1.5,
+        link: "https://filetolink-1-d6d945002598.herokuapp.com/437238/Oleksii_Kliukin_Spilo%2C_%D0%BE%D1%82%D0%BA%D0%B0%D0%B7%D0%BE%D1%83%D1%81%D1%82%D0%BE%D0%B9%D1%87%D0%B8%D0%B2%D1%8B%D0%B9_PostgreSQL_%D0%BA%D0%BB%D0%B0%D1%81%D1%82%D0%B5%D1%80.zip?hash=AgADaE",
       },
     ],
   },
