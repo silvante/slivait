@@ -2,6 +2,10 @@ import figma from "./public/figma.jpg";
 import unity from "./public/unity.jpg";
 import docker from "./public/docker.jpg";
 import blender from "./public/blender.jpg";
+import node from "./public/node.jpg";
+import haker from "./public/haker.jpg";
+import sql from "./public/sql.jpg";
+import cSharp from "./public/cSharp.jpg";
 
 export const slivakers = [
   {
@@ -104,22 +108,54 @@ export const slivakers = [
     ],
   },
   {
-    id: 4,
-    name: "Blender 3D",
-    img: blender,
-    size: 2.94,
-    cost: "3,000",
+    id: 5,
+    name: "Node.js lessons",
+    img: node,
+    size: 3.5,
+    cost: "6,690",
     desc: `
-        ▪️Use the new PBR shader in Blender and create amazing architectural design materials.
-        ▪️Manage your architectural design projects with Blender's layer management system.
+        ~ A complete guide to creating sites and applications using server-side JavaScript, including databases and API creation
+        ~ Write server-side JavaScript
+        ~ The entire NodeJS infrastructure
+        ~ Create REST API
+        ~ Create applications using Express
+        ~ Store data in MySQL and MongoDB
+        ~ GraphQL Basics
+        ~ Create static websites using NodeJS
     `,
-    type: "3d",
-    tgLink: "https://t.me/sIivaker/655",
+    type: "mern",
+    tgLink: "https://t.me/sIivaker/1794",
     file: [
       {
         id: 1,
-        size: 2.94,
-        link: "https://filetolink-1-d6d945002598.herokuapp.com/437240/Interior+Design+and+Visualization+in+Blender+for+beginners.zip?hash=AgAD3i",
+        size: 3.5,
+        link: "https://filetolink-1-d6d945002598.herokuapp.com/437151/Express+JS.+%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D0%BA%D1%83%D1%80%D1%81.zip?hash=AgADLE",
+      },
+    ],
+  },
+  {
+    id: 5,
+    name: "Node.js lessons",
+    img: node,
+    size: 3.5,
+    cost: "6,690",
+    desc: `
+        ~ A complete guide to creating sites and applications using server-side JavaScript, including databases and API creation
+        ~ Write server-side JavaScript
+        ~ The entire NodeJS infrastructure
+        ~ Create REST API
+        ~ Create applications using Express
+        ~ Store data in MySQL and MongoDB
+        ~ GraphQL Basics
+        ~ Create static websites using NodeJS
+    `,
+    type: "mern",
+    tgLink: "https://t.me/sIivaker/1794",
+    file: [
+      {
+        id: 1,
+        size: 3.5,
+        link: "https://filetolink-1-d6d945002598.herokuapp.com/437151/Express+JS.+%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9+%D0%BA%D1%83%D1%80%D1%81.zip?hash=AgADLE",
       },
     ],
   },
