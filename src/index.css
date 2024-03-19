@@ -29,6 +29,7 @@ body::-webkit-scrollbar {
 .resGit {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+  max-width: 1700px;
 }
 
 @media (max-width: 1550px) {

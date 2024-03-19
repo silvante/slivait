@@ -3,8 +3,8 @@ import { slivakers } from "../../data";
 
 const Home = () => {
   return (
-    <div className="p-5 space-y-5">
-      <div className="flex justify-between items-center">
+    <div className="p-5 space-y-5 flex flex-col items-center w-full">
+      <div className=" w-full flex justify-between items-center">
         <h3 className="text-xl font-bold">
           there is {slivakers.length} - slivait
         </h3>

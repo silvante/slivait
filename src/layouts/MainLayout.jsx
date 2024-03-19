@@ -9,7 +9,7 @@ const MainLayout = () => {
       <Header />
       <div className="flex flex-grow">
         <Aside />
-        <div className="flex-1  overflow-y-scroll">
+        <div className="flex justify-center flex-1">
           <Outlet />
         </div>
       </div>
