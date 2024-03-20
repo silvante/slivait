@@ -60,7 +60,7 @@ export const slivakers = [
         ▪️Zenject
         status for: middle or junior
     `,
-    type: "3d",
+    type: "3d editor",
     tgLink: "https://t.me/sIivaker/438",
     file: [
       {
@@ -101,7 +101,7 @@ export const slivakers = [
         ▪️Use the new PBR shader in Blender and create amazing architectural design materials.
         ▪️Manage your architectural design projects with Blender's layer management system.
     `,
-    type: "3d",
+    type: "3d editor",
     tgLink: "https://t.me/sIivaker/655",
     file: [
       {
@@ -127,7 +127,7 @@ export const slivakers = [
         ~ GraphQL Basics
         ~ Create static websites using NodeJS
     `,
-    type: "mern",
+    type: "mern stack",
     tgLink: "https://t.me/sIivaker/1794",
     file: [
       {
@@ -153,7 +153,7 @@ export const slivakers = [
         ~ Database Design
         ~ Options for logical and conceptual design, normalization of the base to the 4NF form, as well as denormalization of tables.
     `,
-    type: "mern",
+    type: "backend",
     tgLink: "https://t.me/sIivaker/1709",
     file: [
       {
@@ -310,3 +310,15 @@ export const slivakers = [
     ],
   },
 ];
+
+function setCategory(arr) {
+  let categories = new Set();
+  arr.forEach((item) => {
+    let category = item.type;
+    categories.add(category);
+  });
+  let type = Array.from(categories);
+  return type;
+}
+
+export const categories = setCategory(slivakers);

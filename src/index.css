@@ -75,3 +75,19 @@ aside {
     grid-template-columns: repeat(1, 1fr);
   }
 }
+
+.navs > .active{
+  background-color: #2979c4;
+}
+
+header, aside {
+  z-index: 999;
+}
+
+.shadow-btn{
+  transition: all ease .3s;
+}
+
+.shadow-btn:hover{
+  box-shadow: 0 0 15px #2979c48e;
+}

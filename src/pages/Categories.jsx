@@ -1,21 +1,22 @@
 import React from "react";
+import { useParams } from "react-router-dom";
 import { slivakers } from "../../data";
 
-const Home = () => {
+const Categories = () => {
+  const { c } = useParams();
+  const arr = slivakers.filter((e) => e.type === c);
   return (
     <div className="p-5 space-y-5 flex flex-col items-center w-full">
-      <div className=" w-full flex justify-between items-center">
-        <h3 className="text-xl font-bold">
-          there is {slivakers.length} - slivait
-        </h3>
-        <h3 className="text-xl font-bold">All is for free</h3>
+      <div className="flex justify-between w-full">
+        <h3 className="text-xl font-bold">{c} lessons</h3>
+        <h3 className="text-xl font-bold">{arr.length} - lessons</h3>
       </div>
       <div className="w-full gap-5 resGit">
-        {slivakers.map((e) => {
+        {arr.map((e) => {
           return (
             <div
               key={e.id}
-              className="bg-white/5 rounded-md overflow-hidden border-white/15 border transition-all"
+              className="bg-white/5 rounded-md overflow-hidden border-white/15 border"
             >
               <div className="h-[223px] w-full flex">
                 <img src={e.img} alt={e.name} className="h-full w-full" />
@@ -38,4 +39,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Categories;
