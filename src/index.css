@@ -17,6 +17,16 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+header {
+  background-color: rgba(0, 0, 0, 0.778);
+  backdrop-filter: blur(10px);
+}
+
+aside {
+  background-color: rgba(0, 0, 0, 0.778);
+  backdrop-filter: blur(10px);
+}
+
 #root {
   height: 100vh;
   width: 100%;
@@ -49,9 +59,9 @@ body::-webkit-scrollbar {
     grid-template-columns: repeat(3, 1fr);
   }
 
-  aside{
+  /* aside{
     display: none;
-  }
+  } */
 }
 
 @media (max-width: 750px) {

@@ -5,10 +5,12 @@ import Aside from "../components/Aside";
 
 const MainLayout = () => {
   return (
-    <div className=" h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col">
       <Header />
-      <div className="flex flex-grow">
-        <Aside />
+      <div className="flex items-start flex-grow">
+        <div className="sticky top-[72px]">
+          <Aside />
+        </div>
         <div className="flex justify-center flex-1">
           <Outlet />
         </div>
