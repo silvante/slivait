@@ -1,10 +1,14 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import Header from "../components/Header";
 import Aside from "../components/Aside";
 import Footer from "../components/Footer";
 
 const MainLayout = () => {
+  const location = useLocation();
+  const path = location.pathname;
+
+
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -14,7 +18,7 @@ const MainLayout = () => {
         </div>
         <div className="flex justify-center flex-col flex-1">
           <Outlet />
-          <Footer/>
+          {path === '/' && (<Footer/>)}
         </div>
       </div>
     </div>
