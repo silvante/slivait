@@ -22,7 +22,7 @@ header {
   backdrop-filter: blur(20px);
 }
 
-aside {
+aside, .gun {
   background-color: rgba(0, 0, 0, 0.778);
   backdrop-filter: blur(20px);
 }
