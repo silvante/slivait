@@ -2,6 +2,7 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Header from "../components/Header";
 import Aside from "../components/Aside";
+import Footer from "../components/Footer";
 
 const MainLayout = () => {
   return (
@@ -11,8 +12,9 @@ const MainLayout = () => {
         <div className="sticky top-[72px]">
           <Aside />
         </div>
-        <div className="flex justify-center flex-1">
+        <div className="flex justify-center flex-col flex-1">
           <Outlet />
+          <Footer/>
         </div>
       </div>
     </div>

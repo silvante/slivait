@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="w-full h-[72px] sticky top-0 py-3 px-5 border-white/15 border-b flex justify-between items-center">
       <button className="text-2xl lg:hidden">
-        <i class="bx bx-category"></i>
+        <i className="bx bx-category"></i>
       </button>
       <div className="flex items-center space-x-10">
         <Link to={"/"}>
