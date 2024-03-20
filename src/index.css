@@ -19,12 +19,12 @@ body::-webkit-scrollbar {
 
 header {
   background-color: rgba(0, 0, 0, 0.778);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
 }
 
 aside {
   background-color: rgba(0, 0, 0, 0.778);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(20px);
 }
 
 #root {
