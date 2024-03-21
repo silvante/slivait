@@ -257,7 +257,7 @@ export const slivakers = [
       {
         id: 1,
         size: 0.32,
-        link: " https://filetolink-1-d6d945002598.herokuapp.com/440120/%D0%92%D0%B5%D1%81%D1%8C+%D0%BA%D1%83%D1%80%D1%81.zip?hash=AgADGT",
+        link: "https://filetolink-1-d6d945002598.herokuapp.com/440120/%D0%92%D0%B5%D1%81%D1%8C+%D0%BA%D1%83%D1%80%D1%81.zip?hash=AgADGT",
       },
     ],
   },
