@@ -28,6 +28,15 @@ const Details = () => {
           </div>
         </div>
       </div>
+      <div className="w-full flex justify-between gap-3">
+        {
+          slivait.file.map((e) =>{
+            return(
+              <a href={e.link} key={e.id} className=" bg-blueSans flex-1 text-center rounded text-lg py-2 shadow-btn"><i className='bx bxs-download'></i> Download {e.size} GB</a>
+            )
+          })
+        }
+      </div>
     </div>
   );
 };

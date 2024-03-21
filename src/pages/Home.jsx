@@ -27,7 +27,7 @@ const Home = () => {
                   <p>size: {e.size} GB</p>
                   <p>cost: {e.cost} rub</p>
                 </div>
-                <Link to={`/${e.name}`} className="w-full bg-[#2979c4] rounded py-2 shadow-btn inline-block text-center">
+                <Link to={`/${e.name}`} className="w-full bg-blueSans rounded py-2 shadow-btn inline-block text-center">
                   <i className="bx bxs-download"></i> download
                 </Link>
               </div>

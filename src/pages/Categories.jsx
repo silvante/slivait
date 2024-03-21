@@ -27,7 +27,7 @@ const Categories = () => {
                   <p>size: {e.size} GB</p>
                   <p>cost: {e.cost} rub</p>
                 </div>
-                <Link className="w-full bg-[#2979c4] rounded py-2 shadow-btn inline-block text-center">
+                <Link className="w-full bg-blueSans rounded py-2 shadow-btn inline-block text-center">
                   <i className="bx bxs-download"></i> download
                 </Link>
               </div>
