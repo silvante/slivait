@@ -44,6 +44,7 @@ const Details = () => {
             <a
               href={e.link}
               key={e.id}
+              target="_blanck"
               className=" bg-blueSans flex-1 text-center rounded text-lg py-2 shadow-btn"
             >
               <i className="bx bxs-download"></i> Download {e.size} GB
