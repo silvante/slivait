@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import { slivakers } from "../../data";
 
 const Categories = () => {
@@ -27,9 +27,9 @@ const Categories = () => {
                   <p>size: {e.size} GB</p>
                   <p>cost: {e.cost} rub</p>
                 </div>
-                <button className="w-full bg-[#2979c4] rounded py-2 shadow-btn">
+                <Link className="w-full bg-[#2979c4] rounded py-2 shadow-btn inline-block text-center">
                   <i className="bx bxs-download"></i> download
-                </button>
+                </Link>
               </div>
             </div>
           );

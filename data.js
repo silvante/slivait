@@ -194,7 +194,7 @@ export const slivakers = [
   },
   {
     id: 8,
-    name: "C# lessons",
+    name: "CSharp lessons",
     img: cSharp,
     size: 0.88,
     cost: "4,500",

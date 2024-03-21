@@ -1,5 +1,6 @@
 import React from "react";
 import { slivakers } from "../../data";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -26,9 +27,9 @@ const Home = () => {
                   <p>size: {e.size} GB</p>
                   <p>cost: {e.cost} rub</p>
                 </div>
-                <button className="w-full bg-[#2979c4] rounded py-2 shadow-btn">
+                <Link to={`/${e.name}`} className="w-full bg-[#2979c4] rounded py-2 shadow-btn inline-block text-center">
                   <i className="bx bxs-download"></i> download
-                </button>
+                </Link>
               </div>
             </div>
           );
