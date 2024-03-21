@@ -13,9 +13,8 @@ const Header = () => {
           <img src={logo} alt="my logotype" width={"170px"} />
         </Link>
         <div className="space-x-10 hidden lg:block">
-          <Link>Desing</Link>
-          <Link>FrontEnd</Link>
-          <Link>Backend</Link>
+          <Link>Report <i className='bx bxs-report'></i></Link>
+          <a href="https://github.com/Khamidov-M/slivait" target="_blanck" className="bg-white text-black px-3 rounded py-2"><i className='bx bx-git-repo-forked' ></i> Github repository</a>
         </div>
       </div>
       <div className="bg-white/5 outline-none overflow-hidden rounded-full w-[30%] items-center hidden lg:flex">
