@@ -14,7 +14,8 @@ const Details = () => {
         <h3 className="text-xl font-bold">free lesson</h3>
       </div>
       <div className="flex w-full justify-between gap-5">
-        <div className="w-[40%] border-2 border-white/15 rounded-lg overflow-hidden">
+        <div className="w-[40%] border-2 border-white/15 rounded-lg overflow-hidden relative">
+          <a href={slivait.img} download className="absolute bg-blueSans shadow-btn rounded-full px-3 py-1 top-2 left-2"><i class='bx bxs-download'></i> download picture</a>
           <img src={slivait.img} alt={slivait} className="w-full" />
         </div>
         <div className="flex-1 space-y-3 flex flex-col justify-center">
