@@ -10,6 +10,7 @@ import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
 import Categories from "./pages/Categories";
 import Details from "./pages/Details";
+import Report from "./pages/Report";
 
 const App = () => {
   const router = createBrowserRouter(
@@ -18,6 +19,7 @@ const App = () => {
         <Route index path="/" element={<Home />} />
         <Route index path="category/:c" element={<Categories />} />
         <Route index path="/:name" element={<Details />} />
+        <Route index path="/report" element={<Report />} />
       </Route>
     )
   );

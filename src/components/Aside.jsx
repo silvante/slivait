@@ -1,11 +1,16 @@
 import React from "react";
 import me from "../assets/mardonbek.jpg";
 import { categories } from "../../data";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 const Aside = () => {
+  const location = useLocation();
+  const path = location.pathname;
+
   return (
-    <aside className="border-white/15 border-r w-60 py-3 stiky top-[72px] flex-col justify-between h-[calc(100vh-72px)] hidden lg:flex">
+    <aside
+      className={`border-white/15 border-r w-60 py-3 stiky top-[72px] flex-col justify-between h-[calc(100vh-72px)] hidden lg:flex`}
+    >
       <div>
         <p className="w-full px-5 text-xl mb-3">Categories 🚀</p>
         <div className="navs">

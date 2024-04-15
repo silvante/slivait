@@ -7,18 +7,18 @@ import Footer from "../components/Footer";
 const MainLayout = () => {
   const location = useLocation();
   const path = location.pathname;
-
+  console.log(path);
 
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
       <div className="flex items-start flex-grow">
         <div className="sticky top-[72px]">
-          <Aside />
+          {path !== "/report" && <Aside />}
         </div>
         <div className="flex justify-center flex-col flex-1">
           <Outlet />
-          {path === '/' && (<Footer/>)}
+          {path === "/" && <Footer />}
         </div>
       </div>
     </div>
